@@ -1,7 +1,9 @@
 import { HeaderStyled } from "./styles"
 
-export const Header = () => {
+export const Header = ({ children }) => {
   return (
-    <HeaderStyled></HeaderStyled>
+    <HeaderStyled>
+      {children}
+    </HeaderStyled>
   )
 }

@@ -2,6 +2,6 @@ import { GearStyled } from "./styles"
 
 export const GearIcon = () => {
   return (
-    <GearStyled></GearStyled>
+    <GearStyled className='gear-icon'></GearStyled>
   )
 }
