@@ -1,9 +1,9 @@
 import { StyledMainTitle } from "./styles"
 
-export const MainTitle = () => {
+export const MainTitle = ({ children }) => {
   return (
     <StyledMainTitle>
-      Bernardo Noé Cárdeas Rocha
+      {children}
     </StyledMainTitle>
   )
 }

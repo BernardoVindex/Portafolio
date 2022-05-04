@@ -1,9 +1,9 @@
 import { StyledSubtitle } from "./styles"
 
-export const SubTitle = () => {
+export const SubTitle = ({ children }) => {
   return (
     <StyledSubtitle>
-      Frontend Developer
+      { children }
     </StyledSubtitle>
   )
 }
