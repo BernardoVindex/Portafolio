@@ -5,3 +5,4 @@ export const GearIcon = () => {
     <GearStyled className='gear-icon'></GearStyled>
   )
 }
+

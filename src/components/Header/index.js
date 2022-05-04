@@ -7,3 +7,4 @@ export const Header = ({ children }) => {
     </HeaderStyled>
   )
 }
+
