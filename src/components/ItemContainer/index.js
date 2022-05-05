@@ -1,7 +1,9 @@
+import { StyledContainer } from "../ItemContainer/styles"
+
 export const ItemContainer = ({ children }) => {
   return(
-    <StylesContainer>
+    <StyledContainer>
       {children}
-    </StylesContainer>
+    </StyledContainer>
   )
 }

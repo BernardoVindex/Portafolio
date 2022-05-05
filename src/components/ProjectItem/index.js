@@ -1,6 +1,6 @@
-import { StyledItemPoyect } from "./styles"
+import { StyledItemPoject } from "./styles"
 
-export const ProyectItem = () => {
+export const ProjectItem = () => {
   return (
     <StyledItemPoject></StyledItemPoject>
   )

@@ -1,4 +1,4 @@
-import { SkillsContainer } from "../components/SkillsContainer"
+import { ItemContainer } from '../components/ItemContainer'
 import { IconSkill } from "../components/IconSkill"
 import { TextArea } from "../components/TextArea"
 
@@ -10,14 +10,13 @@ export const About = () => {
         Descrición más detallada
       </TextArea>
       <p>Skills</p>
-      <SkillsContainer>
+      <ItemContainer>
         <IconSkill></IconSkill>
         <IconSkill></IconSkill>
         <IconSkill></IconSkill>
         <IconSkill></IconSkill>
         <IconSkill></IconSkill>
-        <IconSkill></IconSkill>
-      </SkillsContainer>
+      </ItemContainer>
     </>
   )
 }
