@@ -20,9 +20,9 @@ export const App = () => {
           <Header />         
             <Routes>
               <Route path='/' element={<Home />} />
-              <Route path='/contact' element={<Contact />} />
-              <Route path='/about' element={<About />} />
-              <Route path='/proyects' element={<Proyects />} />
+              <Route path='contact' element={<Contact />} />
+              <Route path='about' element={<About />} />
+              <Route path='proyects' element={<Proyects />} />
               <Route path='*' element={<NotFound />} />
             </Routes>
           <NavBar />

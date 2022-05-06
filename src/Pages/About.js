@@ -1,6 +1,7 @@
 import { ItemContainer } from '../components/ItemContainer'
 import { IconSkill } from "../components/IconSkill"
 import { TextArea } from "../components/TextArea"
+import { Subtitle } from "../components/Subtitle"
 
 export const About = () => {
   return (
@@ -9,8 +10,9 @@ export const About = () => {
       <TextArea>
         Descrición más detallada
       </TextArea>
-      <p>Skills</p>
+      <Subtitle>Skills</Subtitle>
       <ItemContainer>
+        <IconSkill></IconSkill>
         <IconSkill></IconSkill>
         <IconSkill></IconSkill>
         <IconSkill></IconSkill>

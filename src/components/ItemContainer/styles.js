@@ -1,10 +1,13 @@
 import styled from 'styled-components'
 
 export const StyledContainer = styled.ul`
-  width: 90%;
+  width: 95%;
+  /* height: auto; */
   border: 1px solid black;
-  padding: 10px;
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  align-items: center;
 `
