@@ -3,6 +3,8 @@ import { IconSkill } from "../components/IconSkill"
 import { TextArea } from "../components/TextArea"
 import { Subtitle } from "../components/Subtitle"
 
+import { stack } from '../stack'
+
 export const About = () => {
   return (
     <>
@@ -12,12 +14,15 @@ export const About = () => {
       </TextArea>
       <Subtitle>Skills</Subtitle>
       <ItemContainer>
-        <IconSkill></IconSkill>
-        <IconSkill></IconSkill>
-        <IconSkill></IconSkill>
-        <IconSkill></IconSkill>
-        <IconSkill></IconSkill>
-        <IconSkill></IconSkill>
+        {
+          stack.skills.map( (skill, index) => 
+            <div
+              key={index}
+            >
+              <img src={skill.path}/>
+            </div>
+          )
+        }
       </ItemContainer>
     </>
   )
