@@ -1,4 +1,6 @@
-import styled from 'styled-components'
+import styled, { css }  from "styled-components";
+
+
 
 export const StyledContainer = styled.ul`
   width: 90%;
@@ -8,3 +10,4 @@ export const StyledContainer = styled.ul`
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
 `
+

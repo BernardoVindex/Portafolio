@@ -10,7 +10,9 @@ export const About = () => {
         Descrición más detallada
       </TextArea>
       <p>Skills</p>
-      <ItemContainer>
+      <ItemContainer
+        grid-size='50'
+      >
         <IconSkill></IconSkill>
         <IconSkill></IconSkill>
         <IconSkill></IconSkill>
@@ -20,3 +22,4 @@ export const About = () => {
     </>
   )
 }
+
