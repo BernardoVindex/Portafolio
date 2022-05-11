@@ -1,6 +1,6 @@
 import { StyledSubtitle } from "./styles"
 
-export const SubTitle = ({ children }) => {
+export const Subtitle = ({ children }) => {
   return (
     <StyledSubtitle>
       { children }

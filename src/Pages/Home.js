@@ -1,12 +1,12 @@
 import { MainTitle } from "../components/MainTitle"
-import { SubTitle } from "../components/SubTitle"
+import { Subtitle } from "../components/Subtitle"
 import { TextArea } from "../components/TextArea"
 
 export const Home = () => {
   return (
     <>
       <MainTitle>Bernardo Cárdenas</MainTitle>
-      <SubTitle>Frontend Developer</SubTitle>
+      <Subtitle>Frontend Developer</Subtitle>
       <TextArea>Texto de texto de introducción </TextArea>
     </>
   )
