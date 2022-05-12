@@ -34,10 +34,9 @@ module.exports = {
         test: /\.(png|jpg|gif|svg)$/i,
         use: [
           {
-            loader: 'url-loader',
+            loader: 'file-loader',
             options: {
-              limit: 8192,
-            },
+              name: './assets/images/[name].[ext]'            },
           },
         ],
       },
@@ -47,8 +46,8 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         {
-          from: path.resolve(__dirname, "src", "assets/images"),
-          to: ""
+          from: 'src/assets/images', //path.resolve(__dirname, "src", "assets/images")
+          to: 'assets/images'
         }
       ],
     }),

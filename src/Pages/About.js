@@ -5,8 +5,6 @@ import { Subtitle } from "../components/Subtitle"
 
 import { stack } from '../stack'
 
-const html = './assets/html.svg'
-
 export const About = () => {
   return (
     <>
@@ -21,7 +19,8 @@ export const About = () => {
             <div
               key={index}
             >
-              <img src={require('../assets/images/HTML5.jpg')}/>
+              <p>{skill.name}</p>
+              <img src={`${skill.name}.jpg`}/>
             </div>
           )
         }

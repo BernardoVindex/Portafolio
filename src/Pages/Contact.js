@@ -14,12 +14,11 @@ export const Contact = () => {
       <Subtitle>Contacte me!</Subtitle>
 
       <ItemContainer>
-
-          <ContactLogo>
-            <FaLinkedinIn size='1.5rem'/>
-          </ContactLogo>
-
+        <ContactLogo>
+          <FaLinkedinIn size='5rem'/>
+        </ContactLogo>
       </ItemContainer>
+      
     </>
   )
 }

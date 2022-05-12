@@ -1,7 +1,9 @@
 import { StyledContactLogo } from "./styles"
 
-export const ContactLogo = () => {
+export const ContactLogo = ({ children }) => {
   return (
-    <StyledContactLogo></StyledContactLogo>
+    <StyledContactLogo>
+      {children}
+    </StyledContactLogo>
   )
 }

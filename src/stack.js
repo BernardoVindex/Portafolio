@@ -1,8 +1,7 @@
 export const stack = {
   skills: [
     {
-      name:'HTML', 
-      image: './assets/images/hmtl.png'
+      name:'HTML5',
     },
     // 'CSS', 'JavaScript', 'React.js', 'Redux', 'Styled Components', 'SASS']
   ]
