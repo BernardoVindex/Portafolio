@@ -2,7 +2,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { GlobalStyles } from "./styles/GlobalStyles"
 import { ThemeProvider } from 'styled-components'
-import { light } from './uiThemes'
+import { light, dark } from './constants/uiThemes'
 
 import { Header } from "./components/Header"
 import { NavBar } from "./components/NavBar"
@@ -14,7 +14,7 @@ import { NotFound } from './Pages/NotFound'
 import { Home } from './Pages/Home'
 
 export const App = () => {
-  const theme = { colors: light}
+  const theme = { colors: dark}
 
   return(
     <>

@@ -42,5 +42,6 @@ export const GlobalStyles = createGlobalStyle`
     overflow-x: hidden;
     min-height: 100vh;
     border: 1px solid black;
+    background-color: #011526;
   }
 `

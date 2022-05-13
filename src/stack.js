@@ -1,8 +1,34 @@
 export const stack = {
   skills: [
     {
-      name:'HTML5',
+      name: 'HTML',
     },
-    // 'CSS', 'JavaScript', 'React.js', 'Redux', 'Styled Components', 'SASS']
+    {
+      name: 'CSS',
+    },
+    {
+      name: 'JavaScript',
+    },
+    {
+      name: 'React',
+    },
+    {
+      name: 'WebPack',
+    },
+    // {
+    //   name: 'Styled Components',
+    // },
+    {
+      name: 'Terminal',
+    },
+    {
+      name: 'Git',
+    },
+    // {
+    //   name: 'Redux',
+    // },
+    // {
+    //   name: 'SASS',
+    // },
   ]
 }

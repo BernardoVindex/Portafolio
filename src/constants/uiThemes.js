@@ -8,9 +8,18 @@
 //   fontSizes: ['12px', '14px', '16px', '20px', '24px'],
 // }
 
+export const dark = {
+  primary: '#02735E',
+  secundary: '#025959',
+  background: '#011526',
+  nav: '#012E40',
+  border: '#038C65',
+  text: '#ffffff',
+}
 
 export const light = {
   primary: '#999999',
+  secundary: '#999999',
   background: '#ffffff',
   nav: '#f8f8f8',
   border: '#deebf1',

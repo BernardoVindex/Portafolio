@@ -16,12 +16,16 @@ export const About = () => {
       <ItemContainer>
         {
           stack.skills.map( (skill, index) => 
-            <div
+            <li
               key={index}
             >
+              <img
+                alt={skill}
+                src={`${skill.name}.svg`}
+                height='20'
+              />
               <p>{skill.name}</p>
-              <img src={`${skill.name}.jpg`}/>
-            </div>
+            </li>
           )
         }
       </ItemContainer>
