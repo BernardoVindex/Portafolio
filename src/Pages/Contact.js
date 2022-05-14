@@ -10,10 +10,10 @@ import { TextArea } from "../components/TextArea"
 export const Contact = () => {
   return (
     <>
-      <Subtitle>Contacte me!</Subtitle>
+      <Subtitle>Contact me!</Subtitle>
       <ItemContainer>
         <ListedItem>
-          <FaLinkedinIn size='5rem'/>
+          <FaLinkedinIn size='5rem' color='blue'/>
         </ListedItem>
         <ListedItem>
           <FaGithub size='5rem'/>

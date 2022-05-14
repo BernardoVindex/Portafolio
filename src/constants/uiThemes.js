@@ -8,7 +8,26 @@
 //   fontSizes: ['12px', '14px', '16px', '20px', '24px'],
 // }
 
+
+// ** ToDo **
+// Animation
+// Hovers
+// Fonts
+// Links (mail to)
+// Proyect´s hover with info
+// Text intro
+// PorpTypes
+
 export const dark = {
+  primary: '#073673',
+  secundary: '#BACBD9',
+  background: '#030F26',
+  nav: '#052A59',
+  border: '#BACBD9',
+  text: '#ffffff',
+}
+
+export const darkGreen = {
   primary: '#02735E',
   secundary: '#025959',
   background: '#011526',

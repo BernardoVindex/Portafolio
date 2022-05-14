@@ -1,13 +1,18 @@
 import styled from 'styled-components'
 
-export const MainTitle = styled.h1``
+export const MainTitle = styled.h1`
+  color: ${({ theme }) => theme.colors.text};
+  font-size: 5rem;
+  margin-bottom: 30px;
+`
 
 export const Subtitle = styled.h2`
-  size: 30rem;
+  font-size: 2.5rem;
   color: ${({ theme }) => theme.colors.border};
 `
 
 export const TextArea = styled.p`
+  font-size: 1.25rem;
   color: ${({ theme }) => theme.colors.text};
 `
 
@@ -29,14 +34,16 @@ export const ListedItem = styled.li`
 export const ListOfItems = styled.ul`
   width: 95%;
   /* height: auto; */
-  border: 1px solid red;
   padding: 5px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; 
+  justify-content: space-around;
   align-items: center;
   gap: 20px;
 `
 
 export const Container = styled.div`
+  padding: 0 1rem;
+  /* max-width: 1200px; */
+  margin: 0 auto;
 `

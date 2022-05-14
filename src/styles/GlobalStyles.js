@@ -37,7 +37,7 @@ export const GlobalStyles = createGlobalStyle`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
     overflow-x: hidden;
     min-height: 100vh;
