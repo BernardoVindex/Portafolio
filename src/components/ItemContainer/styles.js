@@ -12,6 +12,4 @@ export const StyledContainer = styled.ul`
   flex-wrap: wrap;
   justify-content: space-around; 
   align-items: center;
-
-  background-color: ${({ theme }) => theme.colors.primary};
 `

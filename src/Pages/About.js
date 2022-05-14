@@ -1,34 +1,32 @@
 import { ItemContainer } from '../components/ItemContainer'
-import { IconSkill } from "../components/IconSkill"
-import { TextArea } from "../components/TextArea"
 import { Subtitle } from "../components/Subtitle"
+
+import { SkilItem, ListedItem, TextArea, ListOfItems } from '../styles/CommonComponents'
 
 import { stack } from '../stack'
 
 export const About = () => {
   return (
     <>
-      <p>About Page</p>
       <TextArea>
         Descrición más detallada
       </TextArea>
       <Subtitle>Skills</Subtitle>
-      <ItemContainer>
+      <ListOfItems>
         {
           stack.skills.map( (skill, index) => 
-            <li
+            <ListedItem
               key={index}
             >
-              <img
+              <SkilItem
                 alt={skill}
                 src={`${skill.name}.svg`}
-                height='20'
               />
-              <p>{skill.name}</p>
-            </li>
+              <TextArea>{skill.name}</TextArea>
+            </ListedItem>
           )
         }
-      </ItemContainer>
+      </ListOfItems>
     </>
   )
 }
