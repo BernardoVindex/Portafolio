@@ -8,7 +8,6 @@
 //   fontSizes: ['12px', '14px', '16px', '20px', '24px'],
 // }
 
-
 // ** ToDo **
 // Animation
 // Hovers
@@ -17,6 +16,7 @@
 // Proyect´s hover with info
 // Text intro
 // PorpTypes
+// Media Querys
 
 export const dark = {
   primary: '#073673',

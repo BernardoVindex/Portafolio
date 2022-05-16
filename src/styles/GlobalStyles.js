@@ -24,6 +24,7 @@ export const GlobalStyles = createGlobalStyle`
     border: 0;
     outline: 0;
   }
+
   body {
     background-color: #fefefe;
     height: 100vh;
@@ -32,16 +33,35 @@ export const GlobalStyles = createGlobalStyle`
     max-width: 500px;
     overscroll-behavior: none;
     width: 100%;
+    @media(max-width: 600px) {
+        height: 200px;
+      }
   }
+
   #app {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
     overflow-x: hidden;
     min-height: 100vh;
     border: 1px solid black;
     background-color: #011526;
+      @media(min-width: 600px) {
+        min-height: 80%;
+        max-width: 90vw;
+        border-radius: 50px;
+        flex-flow: row wrap;
+        .content {
+          border: 1px solid red;
+          width: 90%;
+          height: 80vh;
+          margin: 0 0 0 50px;
+        }
+      }
   }
+
+
 `
+

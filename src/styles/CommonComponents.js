@@ -29,6 +29,7 @@ export const ListedItem = styled.li`
   height: 50px;
   margin: calc(5% - 5px);
   text-align: center;
+  align-items: center;
 `
 
 export const ListOfItems = styled.ul`

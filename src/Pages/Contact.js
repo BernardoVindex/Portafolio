@@ -1,30 +1,28 @@
 import { FaLinkedinIn, FaGithub, FaWhatsapp } from 'react-icons/fa'
 import { CgMail } from 'react-icons/cg'
 
-import { ListedItem, Subtitle } from '../styles/CommonComponents'
+import { ListOfItems, ListedItem, Subtitle } from '../styles/CommonComponents'
 
-import { ContactLogo } from "../components/ContactLogo"
-import { ItemContainer } from "../components/ItemContainer"
 import { TextArea } from "../components/TextArea"
 
 export const Contact = () => {
   return (
     <>
       <Subtitle>Contact me!</Subtitle>
-      <ItemContainer>
+      <ListOfItems>
         <ListedItem>
-          <FaLinkedinIn size='5rem' color='blue'/>
+          <FaLinkedinIn size='3rem' color='#ffffff'/>
         </ListedItem>
         <ListedItem>
-          <FaGithub size='5rem'/>
+          <FaGithub size='3rem' color='#ffffff'/>
         </ListedItem>
         <ListedItem>
-          <FaWhatsapp size='5rem'/>
+          <FaWhatsapp size='3rem' color='#ffffff'/>
         </ListedItem>
         <ListedItem>
-          <CgMail size='5rem'/>
+          <CgMail size='3rem' color='#ffffff'/>
         </ListedItem>
-      </ItemContainer>
+      </ListOfItems>
       <TextArea>Un texto acá shido</TextArea>   
     </>
   )

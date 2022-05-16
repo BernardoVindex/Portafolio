@@ -4,16 +4,18 @@ import { NavLink as LinkRouter } from 'react-router-dom'
 
 export const StyledNavBar = styled.nav`
   width: 100%;
-  height: 60px;
+  height: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: ${({ theme }) => theme.colors.nav};
-  position: fixed;
-  right: 0;
-  z-index: 10;
-  bottom: 0;
-  left: 0;
+  background: ${({ theme }) => theme.colors.nav};
+    @media(min-width: 600px) {
+      width: 50px;
+      height: 50%;
+      position: fixed;
+      border-bottom-left-radius: 90px;    
+      align-self: flex-end;
+    }
 `
 
 export const Link = styled(LinkRouter)`

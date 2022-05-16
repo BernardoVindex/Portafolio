@@ -21,7 +21,8 @@ export const App = () => {
       <GlobalStyles />
         <ThemeProvider theme={theme}>
           <BrowserRouter>
-            <Header />
+            <Header className='header'/>
+              <div className='content'>
               <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='contact' element={<Contact />} />
@@ -29,7 +30,8 @@ export const App = () => {
                 <Route path='proyects' element={<Proyects />} />
                 <Route path='*' element={<NotFound />} />
               </Routes>
-            <NavBar />
+              </div>
+            <NavBar className='Navbar'/>
           </BrowserRouter>
         </ThemeProvider>
     </>
