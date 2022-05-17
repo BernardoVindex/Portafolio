@@ -12,6 +12,7 @@ import { Contact } from './Pages/Contact'
 import { Proyects } from './Pages/Proyects'
 import { NotFound } from './Pages/NotFound'
 import { Home } from './Pages/Home'
+import { Container } from './styles/CommonComponents'
 
 export const App = () => {
   const theme = { colors: dark}
@@ -22,7 +23,7 @@ export const App = () => {
         <ThemeProvider theme={theme}>
           <BrowserRouter>
             <Header className='header'/>
-              <div className='content'>
+              <Container className='content'>
               <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='contact' element={<Contact />} />
@@ -30,7 +31,7 @@ export const App = () => {
                 <Route path='proyects' element={<Proyects />} />
                 <Route path='*' element={<NotFound />} />
               </Routes>
-              </div>
+              </Container>
             <NavBar className='Navbar'/>
           </BrowserRouter>
         </ThemeProvider>

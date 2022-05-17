@@ -33,8 +33,11 @@ export const GlobalStyles = createGlobalStyle`
     max-width: 500px;
     overscroll-behavior: none;
     width: 100%;
-    @media(max-width: 600px) {
-        height: 200px;
+    @media(min-width: 600px) {
+        /* padding: 10% 0px; */
+        display: flex;
+        align-content: center;
+        justify-content:center;        
       }
   }
 
@@ -49,15 +52,19 @@ export const GlobalStyles = createGlobalStyle`
     border: 1px solid black;
     background-color: #011526;
       @media(min-width: 600px) {
-        min-height: 80%;
-        max-width: 90vw;
+        height: 80%;
+        width: 100%;
         border-radius: 50px;
         flex-flow: row wrap;
         .content {
           border: 1px solid red;
           width: 90%;
           height: 80vh;
-          margin: 0 0 0 50px;
+          margin: 0 0 0 60px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-evenly;
         }
       }
   }

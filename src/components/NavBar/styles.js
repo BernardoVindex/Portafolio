@@ -10,11 +10,14 @@ export const StyledNavBar = styled.nav`
   align-items: center;
   background: ${({ theme }) => theme.colors.nav};
     @media(min-width: 600px) {
-      width: 50px;
-      height: 50%;
+      width: 60px;
+      height: 60%;
       position: fixed;
       border-bottom-left-radius: 90px;    
       align-self: flex-end;
+      flex-direction: column;
+      justify-content: flex-start;
+      row-gap: 20px;
     }
 `
 

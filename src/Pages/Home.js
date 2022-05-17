@@ -11,7 +11,7 @@ export const Home = () => {
     <>
       <Container>
         <TextArea>Hello!, my name is</TextArea>
-        <MainTitle>Bernardo Cárdenas</MainTitle>
+        {/* <MainTitle>Bernardo Cárdenas</MainTitle> */}
         <Subtitle>Frontend Developer</Subtitle>
       </Container>
       
