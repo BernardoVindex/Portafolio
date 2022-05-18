@@ -18,6 +18,16 @@ export const TextArea = styled.p`
 
 export const NavItem = styled.img``
 
+export const Logo = styled.img`
+  height: 4.5rem;
+    @media (min-width: 600px) {
+      height: 6rem;
+    }
+  /* margin: auto 20px;
+  justify-self: center;
+  align-self: center; */
+`
+
 export const SkilItem = styled.img`
   /* margin: 10px; */
   width: 100%;
@@ -34,17 +44,31 @@ export const ListedItem = styled.li`
 
 export const ListOfItems = styled.ul`
   width: 95%;
-  /* height: auto; */
   padding: 5px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   gap: 20px;
+  justify-self: center;
+
 `
 
 export const Container = styled.div`
-  padding: 0 1rem;
-  /* max-width: 1200px; */
-  margin: 0 auto;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+    @media(min-width: 600px) {
+          .content {
+            border: 1px solid red;
+            width: 100%;
+            margin: 0 0 0 60px;
+            /* display: flex; */
+            /* flex-direction: column; */
+            /* align-items: center; */
+            /* justify-content: space-evenly; */
+          }
+    }
 `

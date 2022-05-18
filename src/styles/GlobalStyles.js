@@ -34,42 +34,29 @@ export const GlobalStyles = createGlobalStyle`
     overscroll-behavior: none;
     width: 100%;
     @media(min-width: 600px) {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      max-width: 70%;  
+      display: flex;
+      align-items: center;
+      justify-content: center;
       }
   }
 
   #app {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-between;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
     overflow-x: hidden;
     min-height: 100vh;
     border: 1px solid black;
-    background-color: #011526;
+    background-color: #052A59;
       @media(min-width: 600px) {
         max-width: 2000px;
         width: 100%;
-        min-height: 80%;
-        max-height: 1000px;
+        min-height: 70%;
         border-radius: 50px;
         flex-flow: row wrap;
-        .content {
-          border: 1px solid red;
-          width: 100%;
-          height: 100px;
-          margin: 0 0 0 60px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: space-evenly;
-        }
       }
   }
-
-
 `
 

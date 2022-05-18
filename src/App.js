@@ -23,7 +23,7 @@ export const App = () => {
         <ThemeProvider theme={theme}>
           <BrowserRouter>
             <Header className='header'/>
-              <Container className='content'>
+              {/* <Container className='content'> */}
               <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='contact' element={<Contact />} />
@@ -31,7 +31,7 @@ export const App = () => {
                 <Route path='proyects' element={<Proyects />} />
                 <Route path='*' element={<NotFound />} />
               </Routes>
-              </Container>
+              {/* </Container> */}
             <NavBar className='Navbar'/>
           </BrowserRouter>
         </ThemeProvider>

@@ -21,8 +21,8 @@
 export const dark = {
   primary: '#073673',
   secundary: '#BACBD9',
-  background: '#030F26',
-  nav: '#052A59',
+  background: '#052A59', //'#030F26'
+  nav: '#030F26', //'#052A59'
   border: '#BACBD9',
   text: '#ffffff',
 }

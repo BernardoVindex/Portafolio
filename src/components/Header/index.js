@@ -1,9 +1,11 @@
+import { Logo } from '../../styles/CommonComponents'
+
 import { HeaderStyled } from "./styles"
 
-export const Header = ({ children }) => {
+export const Header = () => {
   return (
     <HeaderStyled>
-      {children}
+      <Logo src={'logo_B.svg'}></Logo>
     </HeaderStyled>
   )
 }

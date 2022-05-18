@@ -11,7 +11,7 @@ export const StyledNavBar = styled.nav`
   background: ${({ theme }) => theme.colors.nav};
     @media(min-width: 600px) {
       width: 60px;
-      height: 60%;
+      height: 55%;
       position: fixed;
       border-bottom-left-radius: 90px;    
       align-self: flex-end;
@@ -27,4 +27,5 @@ export const Link = styled(LinkRouter)`
   display: flex;
   justify-content: center;
   align-items: center;
+    ::after
 `
