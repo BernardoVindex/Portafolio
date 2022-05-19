@@ -9,6 +9,7 @@ export const StyledNavBar = styled.nav`
   justify-content: space-around;
   align-items: center;
   background: ${({ theme }) => theme.colors.nav};
+
     @media(min-width: 600px) {
       width: 60px;
       height: 55%;
@@ -17,7 +18,7 @@ export const StyledNavBar = styled.nav`
       align-self: flex-end;
       flex-direction: column;
       justify-content: flex-start;
-      row-gap: 20px;
+      /* row-gap: 20px; */
     }
 `
 
@@ -27,5 +28,6 @@ export const Link = styled(LinkRouter)`
   display: flex;
   justify-content: center;
   align-items: center;
-    ::after
+    @media(min-width: 600px) {
+      border-top: 1px solid #ffffff;    }
 `

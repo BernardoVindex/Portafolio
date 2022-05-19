@@ -40,6 +40,10 @@ export const ListedItem = styled.li`
   margin: calc(5% - 5px);
   text-align: center;
   align-items: center;
+  &:hover {
+      /* z-index: 2; */
+      transform: scale(1.60);
+      transition: transform 250ms;
 `
 
 export const ListOfItems = styled.ul`
