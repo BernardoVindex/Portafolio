@@ -26,36 +26,34 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background-color: #fefefe;
     height: 100vh;
-    margin: 0 auto;
-    width: 300px;
+    width: 100%; 
     max-width: 500px;
+    margin: 0 auto;
     overscroll-behavior: none;
-    width: 100%;
-    @media(min-width: 600px) {
-      max-width: 70%;  
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @media(min-width: 450px) {
+        max-width: 80%;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
       }
   }
 
   #app {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
     overflow-x: hidden;
-    min-height: 100vh;
-    border: 1px solid black;
     background-color: #052A59;
-      @media(min-width: 600px) {
-        max-width: 2000px;
+      @media(min-width: 450px) {
         width: 100%;
-        min-height: 70%;
+        max-width: 2000px;
+        min-height: 80%;
         border-radius: 50px;
         flex-flow: row wrap;
+        align-items: center;
+        /* flex-flow: row wrap; */
       }
   }
 `

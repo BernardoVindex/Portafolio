@@ -1,7 +1,5 @@
 import styled, { css }  from "styled-components";
 
-
-
 export const StyledContainer = styled.ul`
   width: 95%;
   height: 75vh;
