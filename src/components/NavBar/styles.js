@@ -50,4 +50,4 @@ export const Link = styled(LinkRouter)`
     padding-top: 10px;
     border-top: 1px solid #ffffff;
   }
-`
+` 

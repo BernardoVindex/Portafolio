@@ -8,7 +8,11 @@ import { TextArea } from "../components/TextArea"
 export const Contact = () => {
   return (
     <>
-      <Subtitle>Contact me!</Subtitle>
+      <Subtitle>Pongámonos en contato</Subtitle>
+      <TextArea>
+        Puedes encontrarme atraves de cualquiera de estas redes,
+        me encatará saber en que puedo ayudarte.
+      </TextArea>
       <ListOfItems>
         <ListedItem>
           <FaLinkedinIn size='3rem' color='#ffffff'/>
@@ -23,7 +27,7 @@ export const Contact = () => {
           <CgMail size='3rem' color='#ffffff'/>
         </ListedItem>
       </ListOfItems>
-      <TextArea>Un texto acá shido</TextArea>   
+      {/* <TextArea>Un texto acá shido</TextArea>    */}
     </>
   )
 }
