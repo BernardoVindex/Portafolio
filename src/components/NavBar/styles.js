@@ -13,8 +13,8 @@ export const StyledNavBar = styled.nav`
   align-items: center; */
   background: ${({ theme }) => theme.colors.nav};
     @media(min-width: 450px) {
-      width: 40px;
-      height: 45%;
+      width: 50px;
+      height: 65vh;
       display: flex;
       flex-direction: column;
       
@@ -25,6 +25,9 @@ export const StyledNavBar = styled.nav`
       border-bottom-left-radius: 50px;    
 
       row-gap: 10px;
+
+      top: 25%;
+
       /* order: -1; */
       /* width: 60px;
       height: 55%;
@@ -43,4 +46,8 @@ export const Link = styled(LinkRouter)`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media(min-width: 600px) {
+    padding-top: 10px;
+    border-top: 1px solid #ffffff;
+  }
 `

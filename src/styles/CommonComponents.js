@@ -21,7 +21,7 @@ export const NavItem = styled.img``
 export const Logo = styled.img`
   height: 4.5rem;
     @media (min-width: 600px) {
-      height: 6rem;
+      height: 6.5rem;
     }
   /* margin: auto 20px;
   justify-self: center;
@@ -29,7 +29,6 @@ export const Logo = styled.img`
 `
 
 export const SkilItem = styled.img`
-  margin: 10px;
   width: 100%;
   height: 100%;
 `
@@ -37,9 +36,14 @@ export const SkilItem = styled.img`
 export const ListedItem = styled.li`
   width: 50px;
   height: 50px;
-  margin: calc(5% - 5px);
+  margin: calc(2.5% - 5px);
   text-align: center;
   align-items: center;
+  &:hover {
+      /* z-index: 2; */
+      transform: scale(1.50);
+      transition: transform 250ms;
+  }
 `
 
 export const ListOfItems = styled.ul`
@@ -47,10 +51,13 @@ export const ListOfItems = styled.ul`
   padding: 5px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: baseline;
   align-items: center;
-  justify-self: center;
+  /* justify-self: center; */
   gap: 20px;
+    @media(min-width: 450px) {
+      max-height: 200px;
+    }
 `
 
 export const Container = styled.div`
@@ -59,16 +66,16 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly; */
-    @media(min-width: 600px) {
-            /* border: 1px solid red;
-            width: 100%;
-            margin: 0 0 0 60px; */
+    @media(min-width: 450px) {
+      
+      /* border: 1px solid red;
+      width: 100%;
+      margin: 0 0 0 60px; */
 
 
-            /* display: flex; */
-            /* flex-direction: column; */
-            /* align-items: center; */
-            /* justify-content: space-evenly; */
-          
+      /* display: flex; */
+      /* flex-direction: column; */
+      /* align-items: center; */
+      /* justify-content: space-evenly; */
     }
 `

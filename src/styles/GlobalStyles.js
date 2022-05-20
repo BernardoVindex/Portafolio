@@ -50,9 +50,21 @@ export const GlobalStyles = createGlobalStyle`
         width: 100%;
         max-width: 2000px;
         min-height: 80%;
+        max-height: 80%;
         border-radius: 50px;
         flex-flow: row wrap;
         align-items: center;
+        .app-container {
+          margin-left: 50px;
+          width: 100%;
+          /* height: 100vh; */
+          display: flex;
+          flex-direction: column;
+          /* align-items: center; */
+          /* justify-content: center; */
+
+          border: 1px solid red;
+        }
         /* flex-flow: row wrap; */
       }
   }
