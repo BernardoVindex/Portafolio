@@ -1,9 +1,7 @@
 import { FaLinkedinIn, FaGithub, FaWhatsapp } from 'react-icons/fa'
 import { CgMail } from 'react-icons/cg'
 
-import { ListOfItems, ListedItem, Subtitle } from '../styles/CommonComponents'
-
-import { TextArea } from "../components/TextArea"
+import { ListOfItems, ListedItem, Subtitle, TextArea } from '../styles/CommonComponents'
 
 export const Contact = () => {
   return (
@@ -27,7 +25,6 @@ export const Contact = () => {
           <CgMail size='3rem' color='#ffffff'/>
         </ListedItem>
       </ListOfItems>
-      {/* <TextArea>Un texto acá shido</TextArea>    */}
     </>
   )
 }

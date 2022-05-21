@@ -31,7 +31,7 @@ export const About = () => {
                   alt={skill}
                   src={`${skill.name}.svg`}
                 />
-                <TextArea>{skill.name}</TextArea>
+                {skill.name}
               </ListedItem>
             )
           }

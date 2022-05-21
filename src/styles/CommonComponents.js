@@ -11,19 +11,27 @@ export const MainTitle = styled.h1`
 `
 
 export const Subtitle = styled.h2`
+  padding-left: 5%;
   font-size: 4rem;
   color: ${({ theme }) => theme.colors.border};
   ${props => props.toTheRight && css`
     margin: 0 0 0 auto;
   `}
+    @media(min-width: 450px) {
+      padding: 0;
+    }
 `
 
 export const TextArea = styled.p`
-  font-size: 1.75rem;
+  margin: 0 5%;
+  font-size: 1.6rem;
   color: ${({ theme }) => theme.colors.text};
   ${props => props.toTheRight && css`
-    margin: auto;
   `}
+    @media(min-width: 450px) {
+      padding: 0;
+      margin: 0;
+    }
 `
 
 export const NavItem = styled.img``
@@ -49,6 +57,9 @@ export const ListedItem = styled.li`
   margin: calc(2.5% - 5px);
   text-align: center;
   align-items: center;
+  justify-items: center;
+  text-justify:
+  border: 1px solid red;
   &:hover {
       /* z-index: 2; */
       transform: scale(1.50);
@@ -57,17 +68,11 @@ export const ListedItem = styled.li`
 `
 
 export const ListOfItems = styled.ul`
-  width: 95%;
-  padding: 5px;
+  padding: 0 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: baseline;
-  align-items: center;
-  /* justify-self: center; */
-  gap: 20px;
-    @media(min-width: 450px) {
-      max-height: 200px;
-    }
+  gap: 25px;
+  justify-content: center;
 `
 
 export const Container = styled.div`
