@@ -11,11 +11,14 @@ export const Home = () => {
   return (
     <>
       <Container>
-        <TextArea>Hello!, my name is</TextArea>
-        {/* <MainTitle>Bernardo Cárdenas</MainTitle> */}
-        <Subtitle>Frontend Developer</Subtitle>
+        <TextArea
+        >Hello!, my name is</TextArea>
+        <MainTitle>Bernardo Cárdenas</MainTitle>
+        <Subtitle
+          toTheRight
+        >Frontend Developer</Subtitle>
       </Container>
-      
+  
       <ContactContainer>
         <ContactLogo>
           <FaLinkedinIn size='3.5rem' color='#ffffff'/>

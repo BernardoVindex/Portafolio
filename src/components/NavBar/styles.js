@@ -14,20 +14,17 @@ export const StyledNavBar = styled.nav`
   background: ${({ theme }) => theme.colors.nav};
     @media(min-width: 450px) {
       width: 50px;
-      height: 65vh;
+      height: 67vh;
       display: flex;
-      flex-direction: column;
-      
+      flex-direction: column;      
       position: fixed;
       align-self: flex-end;
       justify-content: flex-start;
-
-      border-bottom-left-radius: 50px;    
-
+      border-radius: 10px;    
       row-gap: 10px;
-
       top: 25%;
-
+      left: 12%;
+      z-index: 1;
       /* order: -1; */
       /* width: 60px;
       height: 55%;

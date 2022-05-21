@@ -1,19 +1,29 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 export const MainTitle = styled.h1`
+  font-size: 4rem;
   color: ${({ theme }) => theme.colors.text};
-  /* font-size: 5rem;
-  margin-bottom: 30px; */
+  @media(min-width: 450px) {
+    font-size: 6rem;
+    margin: auto;
+    font-size: 8.5rem;
+  }
 `
 
 export const Subtitle = styled.h2`
-  font-size: 2.5rem;
+  font-size: 4rem;
   color: ${({ theme }) => theme.colors.border};
+  ${props => props.toTheRight && css`
+    margin: 0 0 0 auto;
+  `}
 `
 
 export const TextArea = styled.p`
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   color: ${({ theme }) => theme.colors.text};
+  ${props => props.toTheRight && css`
+    margin: auto;
+  `}
 `
 
 export const NavItem = styled.img``
@@ -68,6 +78,9 @@ export const Container = styled.div`
   justify-content: space-evenly; */
     @media(min-width: 450px) {
       
+      width: 100%;
+      display: flex; 
+      flex-direction: column;
       /* border: 1px solid red;
       width: 100%;
       margin: 0 0 0 60px; */

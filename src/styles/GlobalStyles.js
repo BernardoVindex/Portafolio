@@ -47,22 +47,22 @@ export const GlobalStyles = createGlobalStyle`
     overflow-x: hidden;
     background-color: #052A59;
       @media(min-width: 450px) {
+        padding: 0 100px 0 100px;
         width: 100%;
         max-width: 2000px;
         min-height: 80%;
         max-height: 80%;
         border-radius: 50px;
-        flex-flow: row wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* flex-flow: row wrap; */
         align-items: center;
         .app-container {
-          margin-left: 50px;
+          /* margin-left: 50px; */
           width: 100%;
-          /* height: 100vh; */
           display: flex;
           flex-direction: column;
-          /* align-items: center; */
-          /* justify-content: center; */
-
+          align-items: center;
           border: 1px solid red;
         }
         /* flex-flow: row wrap; */

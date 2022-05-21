@@ -9,8 +9,12 @@ export const HeaderStyled = styled.header`
   @media(min-width: 450px) {      
       width: 50px;
       min-height: 125px;
-      height: 15vh;
+      height: 20vh;
       align-self: flex-start;
+      border-radius: 10px;
       position: fixed;
+      z-index: 1;
+      left: 12%;
+      top: 8%;
     }
 `
